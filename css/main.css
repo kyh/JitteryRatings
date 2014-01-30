@@ -1,0 +1,53 @@
+/* General Resets */
+@font-face {
+    font-family: 'HelveticaNeueLight';
+    src: url('../fonts/helveticaneue-light.eot');
+    src: url('../fonts/helveticaneue-light.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneue-light.woff') format('woff'),
+         url('../fonts/helveticaneue-light.ttf') format('truetype'),
+         url('../fonts/helveticaneue-light.svg#HelveticaNeueLight') format('svg');
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: auto; font-family: 'helveticaneue-light'}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'helveticaneue-light';
+	font-weight: bold;
+}
+
+.main-wrapper{
+	margin: auto;
+	max-width: 800px;
+	width: 100%;
+}
+
+.bot-10{ margin-bottom: 10px }
+.bot-20{ margin-bottom: 20px }
+.top-10{ margin-top: 10px }
+.top-20{ margin-top: 20px }
+.left-10{ margin-left: 10px }
+.right-10{ margin-right: 10px }
+
+header{
+	text-align: center;
+}
+
+header>img{
+	width: 150px;
+}
+
+.review-item, .review-rating{
+	display: inline-block;
+}
+footer{
+	text-align: center;
+}
+
+footer .logo img{
+	width: 80px;
+}
+
+footer .logo .slogan{
+	font-size: 14px;
+}
